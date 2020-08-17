@@ -1,8 +1,14 @@
 body {
     margin:0;
     padding:0;
+    font-family: crystal;
 }
 
+.container-search {
+    width:100%;
+    margin:0 auto;
+   
+}
 #header {
     background-color:#483D8B;
     color:#FFFFFF;
@@ -10,5 +16,33 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
+   
+}
+
+.header-color {
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:lightgray;
+}
+
+#parameters,
+#articles {
+    margin:0;
+    border:1px solid lightgray;
+}
+
+#parameters {
+    background-color:whitesmoke;
+}
+
+#articles {
+    background-color:#FFFAFA;
+}
+
+
+
+footer {
+    margin-top:20px;
+    padding-bottom:10px;
+    
 }
